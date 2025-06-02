@@ -51,7 +51,7 @@ export default {
     noSnippets: 'No snippets yet',
     createFirst: 'Create your first snippet',
     uploadStatus: {
-      uploaded: 'Uploaded',
+      synced: 'Uploaded',
       pending: 'Pending Upload',
       local: 'Local Storage'
     },

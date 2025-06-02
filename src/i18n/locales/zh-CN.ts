@@ -51,7 +51,7 @@ export default {
     noSnippets: '暂无代码片段',
     createFirst: '创建您的第一个代码片段',
     uploadStatus: {
-      uploaded: '已上传',
+      synced: '已上传',
       pending: '等待上传',
       local: '本地存储'
     },
