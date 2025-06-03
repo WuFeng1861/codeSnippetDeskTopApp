@@ -90,7 +90,7 @@ function createWindow() {
     win.show();
     winShowStatus = true;
   })
-  win.webContents.openDevTools()
+  // win.webContents.openDevTools()
 }
 
 // 添加文件对话框处理
