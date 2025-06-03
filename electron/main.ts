@@ -30,6 +30,11 @@ let win: BrowserWindow | null
 let tray = null
 let winShowStatus = true;
 function createWindow() {
+  const gotTheLock = app.requestSingleInstanceLock();
+  if (!gotTheLock) {
+    app.quit();
+    return;
+  }
   win = new BrowserWindow({
     icon: path.join(process.env.VITE_PUBLIC, 'logo.ico'),
     webPreferences: {

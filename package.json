@@ -38,8 +38,8 @@
   },
   "main": "dist-electron/main.js",
   "build": {
-    "appId": "com.optlayout.web-layout",
-    "productName": "OptLayout",
+    "appId": "com.wufeng.codesnippet",
+    "productName": "codeSnippet",
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true,
