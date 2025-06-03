@@ -103,7 +103,8 @@ export default {
     actions: 'Actions',
     back: 'Back',
     yes: 'Yes',
-    no: 'No'
+    no: 'No',
+    copy: 'Copy'
   },
   errors: {
     required: '{field} is required',
@@ -117,4 +118,4 @@ export default {
     notFound: 'Resource not found',
     serverError: 'Server error'
   }
-}
+};

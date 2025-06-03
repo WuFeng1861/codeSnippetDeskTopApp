@@ -103,7 +103,8 @@ export default {
     actions: '操作',
     back: '返回',
     yes: '是',
-    no: '否'
+    no: '否',
+    copy: '复制',
   },
   errors: {
     required: '{field}不能为空',
@@ -117,4 +118,4 @@ export default {
     notFound: '资源不存在',
     serverError: '服务器错误'
   }
-}
+};
