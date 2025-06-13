@@ -98,6 +98,14 @@ const updateSnippet = async () => {
 
   try {
     const id = parseInt(route.params.id as string)
+    console.log('EditSnippet.vue: updateSnippet', {
+      id,
+      title: title.value,
+      content: content.value,
+      description: description.value,
+      language: language.value,
+      tagIds: selectedTagIds.value
+    }, 'snippet')
     const snippet = await snippetsStore.updateSnippet({
       id,
       title: title.value,

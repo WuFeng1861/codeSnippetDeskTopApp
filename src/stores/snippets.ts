@@ -111,6 +111,7 @@ export const useSnippetsStore = defineStore('snippets', () => {
   
   // 更新代码片段
   async function updateSnippet(snippet: SnippetUpdateDTO) {
+    console.log(snippet, 'updateSnippet store');
     // 先更新到本地
     const othersSnippets = localSnippets.value.filter(s => s.id != snippet.id)
     const thisSnippet = localSnippets.value.find(s => s.id == snippet.id)
